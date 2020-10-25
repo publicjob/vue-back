@@ -21,4 +21,4 @@ const server = http.createServer(function(req, res) {
   }
 })
 
-server.listen(3000, () => console.log('server在3000端口监听中'))
+server.listen(3000, () => console.log('server在3000端口中监听...'))
