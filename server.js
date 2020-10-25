@@ -1,13 +1,13 @@
 const http = require('http')
 const users = [
   {
-    id: 133,
+    id: 1,
     name:'worker1'
   },{
-    id: 233,
+    id: 2,
     name: 'worker2'
   },{
-    id: 333,
+    id: 3,
     name: 'worker3'
   }
 ]
