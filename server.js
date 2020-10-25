@@ -14,7 +14,7 @@ const users = [
 
 const server = http.createServer(function(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
-  if(req.url === '/user') {
+  if(req.url === '/api/user') {
     res.end(JSON.stringify(users))
   }else{
     res.end('not found')
